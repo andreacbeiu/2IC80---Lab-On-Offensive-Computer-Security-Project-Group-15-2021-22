@@ -17,7 +17,7 @@ def launchHELP(base_window):
     #canvas = Canvas(top, width=300, height=180)  #create Canvas to print the text for help page
     #canvas.create_text(30, 20, text="Introduce Your IP (can be found using the command \'ifconfig\' on Linux, the Target's IP from your Local Area Network and the Host's IP / Gateway IP. Then, click on the desired attack. You can stop the attack at any time using the button 'STOP'. You can exit the application using the button 'EXIT'.")
     
-    my_label = Label(top, width=300, height=180, text="Introduce Your IP (can be found using the\n command \'ifconfig\' on Linux, the Target's IP\n from your Local Area Network and the Host's\nIP / Gateway IP. Then, click on the desired\n attack. You can stop the attack at any time\nusing the button 'STOP'. You can exit the\n application using the button 'EXIT'.")
+    my_label = Label(top, width=300, height=180, text="Introduce Your IP (can be found using the\n command \'ifconfig\' on Linux, the Target's IP\n from your Local Area Network and the Host's\nIP / Gateway IP. Then, click on the desired\n attack. You can stop the attack at any time\nusing the button 'STOP'. You can exit the\n application using the button 'EXIT'. SvRedirect\n is used only for DNS, represents the IP to\n redirect the Target.")
     my_label.pack(pady=0)
     
 # When the ARP Attack button is pressed launch the ARP attack
